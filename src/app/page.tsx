@@ -1,12 +1,10 @@
-import Image from "next/image";
-import {Button} from "@/components/ui/button";
-import Link from "next/link";
-import { Package2 } from "lucide-react";
+import Hero from "@/components/hero";
+import Projects from "@/components/projects";
 
-export default function Home() {
+export default function Page() {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <Button>Debjoty Mitra</Button>
-    </div>
+    <main className="px-4 flex items-center flex-col md:container">
+      <Hero />
+    </main>
   );
 }
