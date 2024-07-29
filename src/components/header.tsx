@@ -57,7 +57,7 @@ export default function Header() {
         <SheetContent>
           <SheetTrigger asChild>
             <Link className="flex items-center gap-2" href="/">
-              <h3 className="text-lg font-semibold tracking-tight">Joeri Breedveld</h3>
+              <h3 className="text-lg font-semibold tracking-tight">Debjoty Mitra</h3>
             </Link>
           </SheetTrigger>
           <ul className="flex flex-col gap-3 mt-4">
@@ -68,17 +68,17 @@ export default function Header() {
             </li>
             <li>
               <SheetTrigger asChild>
-                <Link href="/about">About</Link>
+                <Link href="/coming">About</Link>
               </SheetTrigger>
             </li>
             <li>
               <SheetTrigger asChild>
-                <Link href="/experience">Experience</Link>
+                <Link href="/coming">Experience</Link>
               </SheetTrigger>
             </li>
             <li>
               <SheetTrigger asChild>
-                <Link href="/contact">Contact</Link>
+                <Link href="/coming">Contact</Link>
               </SheetTrigger>
             </li>
           </ul>
