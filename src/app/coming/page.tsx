@@ -2,13 +2,7 @@ import ComingSoon from "@/components/coming";
 import React from "react";
 
 function ComingSoonPage() {
-  return (
-    <div>
-      <div className="py-10">
-        <ComingSoon />
-      </div>
-    </div>
-  );
+  return <main className="px-4 flex items-center flex-col md:container"></main>;
 }
 
 export default ComingSoonPage;

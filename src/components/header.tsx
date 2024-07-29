@@ -25,23 +25,28 @@ export default function Header() {
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="/coming">Projects</Link>
+              <Link href="/">Certifications</Link>
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+              <Link href="/">Projects</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={cn(navigationMenuTriggerStyle())}>
-              <Link href="/coming">About</Link>
+              <Link href="/">About</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={cn(navigationMenuTriggerStyle())}>
-              <Link href="/coming">Experience</Link>
+              <Link href="/">Experience</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
       <div className="w-full justify-end items-center hidden md:flex">
-        <Link href="/coming">
+        <Link href="/">
           <Button>Contact</Button>
         </Link>
       </div>
@@ -57,28 +62,33 @@ export default function Header() {
         <SheetContent>
           <SheetTrigger asChild>
             <Link className="flex items-center gap-2" href="/">
-              <h3 className="text-lg font-semibold tracking-tight">Debjoty Mitra</h3>
+              <h3 className="text-lg font-semibold tracking-tight">debjotyms</h3>
             </Link>
           </SheetTrigger>
           <ul className="flex flex-col gap-3 mt-4">
             <li>
               <SheetTrigger asChild>
-                <Link href="/">Project</Link>
+                <Link href="/">Certifications</Link>
               </SheetTrigger>
             </li>
             <li>
               <SheetTrigger asChild>
-                <Link href="/coming">About</Link>
+                <Link href="/">Projects</Link>
               </SheetTrigger>
             </li>
             <li>
               <SheetTrigger asChild>
-                <Link href="/coming">Experience</Link>
+                <Link href="/">About</Link>
               </SheetTrigger>
             </li>
             <li>
               <SheetTrigger asChild>
-                <Link href="/coming">Contact</Link>
+                <Link href="/">Experience</Link>
+              </SheetTrigger>
+            </li>
+            <li>
+              <SheetTrigger asChild>
+                <Link href="/">Contact</Link>
               </SheetTrigger>
             </li>
           </ul>

@@ -4,7 +4,7 @@ import "./globals.css";
 import {Button} from "@/components/ui/button";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import { cn } from "@/lib/utils";
+import {cn} from "@/lib/utils";
 
 const inter = Inter({subsets: ["latin"]});
 
