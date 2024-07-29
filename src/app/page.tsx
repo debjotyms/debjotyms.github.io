@@ -6,7 +6,7 @@ import { Package2 } from "lucide-react";
 export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen">
-      <p className="text-center text-2xl font-bold">Debjoty Mitra</p>
+      <Button>Debjoty Mitra</Button>
     </div>
   );
 }
