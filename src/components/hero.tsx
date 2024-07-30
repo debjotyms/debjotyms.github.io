@@ -17,9 +17,13 @@ export default function Hero() {
           className="object-cover"
         />
       </div>
-      <Badge className="my-2 px-4 py-2 text-lg" variant={"default"}>
-        Debjoty Mitra
-      </Badge>
+
+      <div className="relative inline-flex  group">
+        <div className="absolute transitiona-all duration-1000 opacity-30 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-3xl blur-lg group-hover:opacity-50 group-hover:-inset-1 group-hover:duration-1000 animate-tilt"></div>
+        <Badge className="my-2 px-4 py-2 text-lg glow" variant={"secondary"}>
+          Debjoty Mitra
+        </Badge>
+      </div>
 
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center text-balance leading-tight lg:leading-[1.1]">
         Aspiring MLOps Engineer
