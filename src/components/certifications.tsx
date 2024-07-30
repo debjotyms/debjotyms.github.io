@@ -22,7 +22,7 @@ const certifications = [
   {
     title: "GitHub Foundations",
     description:
-      "The GitHub Foundations Certificate course provided a comprehensive introduction to version control and collaboration using GitHub. Throughout the course, I learned essential GitHub features, including repository management, branching and merging, pull requests, and collaboration workflows.",
+      "The GitHub Foundations Certification Exam tested my knowledge and skills in version control and collaboration using GitHub. During the exam, I demonstrated proficiency in essential GitHub features, including repository management, branching and merging, pull requests, and collaboration workflows.",
     image: "/images/ghf.JPG",
     link: "https://www.credly.com/badges/a2d02002-8c14-4bcf-a938-cc8bf49c22a0/public_url",
   },
