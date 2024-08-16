@@ -31,7 +31,7 @@ export default function Hero() {
       </p>
       <div className="flex gap-4 py-4 md:pb-10 items-center">
         <Button variant={"default"}>
-          <Link href="https://debjotyms.hashnode.dev/">Personal Blog</Link>
+          <Link href="https://blog.debjotyms.com/">Personal Blog</Link>
         </Button>
         <Link href="https://github.com/debjotyms" target="_blank" rel="noopener noreferrer">
           <Button variant="outline">
