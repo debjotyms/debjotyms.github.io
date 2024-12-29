@@ -1,5 +1,3 @@
-// app/cv/page.jsx
-
 'use client';
 
 import React from 'react';
@@ -46,7 +44,7 @@ const CVPage = () => {
         </CardHeader>
         <CardContent>
           <p>
-            In my second year of college, I became interested in <strong>Machine Learning</strong>. Since then, along with other development practices, I've been teaching myself AI and ML. Additionally, I practice regularly on <strong>LeetCode</strong>. I am interested in <strong>Computer Vision, LLMs, and Predictive Analysis</strong>, and I've successfully completed several projects in these areas. Furthermore, I have a solid understanding of <strong>cloud concepts</strong> and hands-on experience with <strong>Microsoft Azure</strong>. I am also <strong>2x cloud certified</strong>, holding the <strong>DP-100: Microsoft Azure Data Scientist Associate</strong> certification. To complement this, I utilize version control systems like <strong>Git and GitHub</strong> to manage my projects efficiently. I also have a <strong>YouTube Channel</strong> and <strong>Personal Blog</strong> where I try to share everything I learn.
+            In my second year of college, I became interested in <strong>Machine Learning</strong>. Since then, along with other development practices, I&#39;ve been teaching myself AI and ML. Additionally, I practice regularly on <strong>LeetCode</strong>. I am interested in <strong>Computer Vision, LLMs, and Predictive Analysis</strong>, and I&#39;ve successfully completed several projects in these areas. Furthermore, I have a solid understanding of <strong>cloud concepts</strong> and hands-on experience with <strong>Microsoft Azure</strong>. I am also <strong>2x cloud certified</strong>, holding the <strong>DP-100: Microsoft Azure Data Scientist Associate</strong> certification. To complement this, I utilize version control systems like <strong>Git and GitHub</strong> to manage my projects efficiently. I also have a <strong>YouTube Channel</strong> and <strong>Personal Blog</strong> where I try to share everything I learn.
           </p>
         </CardContent>
       </Card>
