@@ -23,7 +23,7 @@ export default function RootLayout({
         <div className="h-full flex flex-col items-center">
           <Header />
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>
