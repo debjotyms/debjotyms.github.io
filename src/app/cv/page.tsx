@@ -228,7 +228,7 @@ const CVPage = () => {
         </CardHeader>
         <CardContent>
           <ul className="list-disc list-inside">
-            <li><strong>The Duke of Edinburgh's International Award</strong>, Bronze Standard -- 2023</li>
+            <li><strong>The Duke of Edinburgh&#39;s International Award</strong>, Bronze Standard -- 2023</li>
             <li><strong>Bangladesh Olympiad in Informatics (BDIO)</strong>, National Level Top 20 -- 2019</li>
           </ul>
         </CardContent>
