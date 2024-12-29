@@ -15,11 +15,11 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const CVPage = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-4">
+    <div className="min-h-screen p-4 px-60">
       {/* Download Button */}
       <div className="flex justify-center mb-8">
-        <a href="/Debjoy_Mitra_CV.pdf" download>
-          <Button variant="primary" className="flex items-center">
+        <a href="/cv.pdf" download>
+          <Button className="flex items-center">
             <FaDownload className="w-4 h-4 mr-2" />
             Download CV
           </Button>
