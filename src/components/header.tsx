@@ -35,7 +35,7 @@ export default function Header() {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={cn(navigationMenuTriggerStyle())}>
-              <Link href="/">About</Link>
+              <Link href="/">CV</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
