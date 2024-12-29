@@ -13,7 +13,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const CVPage = () => {
   return (
-    <div className="min-h-screen p-4 px-60">
+    <div className="min-h-screen mx-auto max-w-screen-lg px-4 md:px-16 py-4">
       {/* Download Button */}
       <div className="flex justify-center mb-8">
         <a href="/cv.pdf" download>
