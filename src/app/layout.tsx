@@ -8,7 +8,7 @@ import {cn} from "@/lib/utils";
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "miaow!",
+  title: "debjotyms",
   description: "created by debjotyms",
 };
 

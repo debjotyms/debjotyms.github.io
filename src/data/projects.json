@@ -1,0 +1,44 @@
+[
+  {
+    "title": "debjotyms.com",
+    "description": "Developed a personal portfolio website using Next.js to showcase projects and skills. Implemented responsive design and optimized performance for a seamless user experience.",
+    "link": "https://github.com/debjotyms/debjotyms.github.io",
+    "category": "Web Development"
+  },
+  {
+    "title": "xopslab.org",
+    "description": "XOps Lab is a global community for AI, ML, and Cloud enthusiasts to connect, learn, and grow together.",
+    "link": "https://github.com/debjotyms/xopslab.org",
+    "category": "Web Development"
+  },
+  {
+    "title": "OpenCV Camera Calibration and Homography",
+    "description": "A Python project for camera calibration using checkerboard images and applying homography transformations to align images accurately.",
+    "link": "https://github.com/debjotyms/opencv-camera-calibration-and-homography",
+    "category": "Computer Vision"
+  },
+  {
+    "title": "Django Book Store",
+    "description": "This project developed as a course project for the CSE370 Database course. Built on Django, MySQL, and Bootstrap, it allows users to browse, search, and purchase books.",
+    "link": "https://github.com/debjotyms/boi.io-django-database-project-cse370",
+    "category": "Web Development"
+  },
+  {
+    "title": "Aruco Marker Distance Measurement",
+    "description": "Developed a system to accurately measure distances using Aruco markers. Implemented Computer Vision techniques to detect markers in images or video streams, enabling precise distance calculations.",
+    "link": "https://github.com/debjotyms/aruco-marker-distance-measurement",
+    "category": "Computer Vision"
+  },
+  {
+    "title": "Face Tracking",
+    "description": "Created a face tracking system utilizing the OpenCV library. Developed algorithms to detect and track human faces in real-time from video input.",
+    "link": "https://github.com/debjotyms/face-tracking-opencv",
+    "category": "Computer Vision"
+  },
+  {
+    "title": "Intrusion Detection System",
+    "description": "Created an intrusion detection system using a dataset from Kaggle. Implemented algorithms to analyze network traffic and identify potential security breaches.",
+    "link": "https://github.com/debjotyms/Intrusion-Detection-Streamlit-CSE484",
+    "category": "Cybersecurity"
+  }
+]

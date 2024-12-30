@@ -1,0 +1,6 @@
+{
+  "programming": ["C++", "Python"],
+  "mlAi": ["NumPy", "Pandas", "Seaborn", "Scikit-learn", "TensorFlow", "PyTorch"],
+  "webTechnologies": ["HTML", "CSS", "Bootstrap", "Django"],
+  "dbms": ["MySQL", "SQLite"]
+}

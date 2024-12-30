@@ -12,7 +12,7 @@ import Link from "next/link";
 import {Sheet, SheetContent, SheetTrigger} from "@/components/ui/sheet";
 import {MenuIcon, Sun, Moon} from "lucide-react";
 import {cn} from "@/lib/utils";
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 
 export default function Header() {
   const [darkMode, setDarkMode] = useState(false);
@@ -20,8 +20,7 @@ export default function Header() {
   useEffect(() => {
     if (
       localStorage.theme === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
+      (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
       document.documentElement.classList.add("dark");
       setDarkMode(true);
@@ -50,12 +49,7 @@ export default function Header() {
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="/">Certifications</Link>
-            </NavigationMenuLink>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="/">Projects</Link>
+              <Link href="/">Home</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
@@ -65,7 +59,7 @@ export default function Header() {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={cn(navigationMenuTriggerStyle())}>
-              <Link href="/">Experience</Link>
+              <Link href="https://xopslab.org/">XOps Lab</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
@@ -96,12 +90,7 @@ export default function Header() {
           <ul className="flex flex-col gap-3 mt-4">
             <li>
               <SheetTrigger asChild>
-                <Link href="/">Certifications</Link>
-              </SheetTrigger>
-            </li>
-            <li>
-              <SheetTrigger asChild>
-                <Link href="/">Projects</Link>
+                <Link href="/">Home</Link>
               </SheetTrigger>
             </li>
             <li>
@@ -111,12 +100,7 @@ export default function Header() {
             </li>
             <li>
               <SheetTrigger asChild>
-                <Link href="/">Experience</Link>
-              </SheetTrigger>
-            </li>
-            <li>
-              <SheetTrigger asChild>
-                <Link href="/">Contact</Link>
+                <Link href="https://xopslab.org/">XOps Lab</Link>
               </SheetTrigger>
             </li>
           </ul>
