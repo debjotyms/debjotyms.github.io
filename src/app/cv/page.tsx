@@ -39,18 +39,18 @@ const CVPage = () => {
       <div className="space-y-6">
         {/* Profile Section */}
         <div className="border rounded-lg p-4">
-          <h2 className="text-xl sm:text-2xl font-bold mb-3">Profile</h2>
-          <p className="text-sm sm:text-base">{profileData.description}</p>
+          <h2 className="text-lg sm:text-2xl font-bold mb-3">Profile</h2>
+          <p className="text-xs sm:text-base">{profileData.description}</p>
         </div>
         {/* Nested Sections */}
         {/* Education Section */}
         <div className="border rounded-lg p-4 pb-0">
-          <h2 className="text-xl sm:text-2xl font-bold pb-2 mb-2">Education</h2>
+          <h2 className="text-lg sm:text-2xl font-bold pb-2 mb-2">Education</h2>
           {educationData.map((edu, idx) => (
             <div key={idx} className="border rounded-lg p-4 mb-4">
-              <h3 className="text-lg sm:text-xl font-bold mb-3">{edu.institution}</h3>
-              <p className="text-sm sm:text-base text-gray-600">{edu.duration}</p>
-              <p>{edu.program}</p>
+              <h3 className="text-base sm:text-xl font-bold mb-3">{edu.institution}</h3>
+              <p className="text-xs sm:text-base text-gray-600">{edu.duration}</p>
+              <p className="text-xs sm:text-base">{edu.program}</p>
               {/* <p>
                 <strong>GPA:</strong> {edu.gpa}
               </p> */}
@@ -59,30 +59,30 @@ const CVPage = () => {
         </div>
         {/* Experience Section */}
         <div className="border rounded-lg p-4 pb-0">
-          <h2 className="text-xl sm:text-2xl font-bold pb-2 mb-2">Experience</h2>
+          <h2 className="text-lg sm:text-2xl font-bold pb-2 mb-2">Experience</h2>
           {experienceData.map((exp, idx) => (
             <div key={idx} className="border rounded-lg p-4 mb-4">
-              <p className="text-sm sm:text-base text-gray-600">{exp.role}</p>
-              <h3 className="text-lg sm:text-xl font-bold mb-3">{exp.company}</h3>
-              <p className="text-sm sm:text-base text-gray-600">{exp.duration}</p>
+              <p className="text-xs sm:text-base text-gray-600">{exp.role}</p>
+              <h3 className="text-base sm:text-xl font-bold mb-3">{exp.company}</h3>
+              <p className="text-xs sm:text-base text-gray-600">{exp.duration}</p>
               {/* <p>{exp.role}</p> */}
-              <p>{exp.description}</p>
+              <p className="text-xs sm:text-base">{exp.description}</p>
             </div>
           ))}
         </div>
         {/* Projects Section */}
         <div className="border rounded-lg p-4 pb-0">
-          <h2 className="text-xl sm:text-2xl font-bold pb-2 mb-2">Projects</h2>
+          <h2 className="text-lg sm:text-2xl font-bold pb-2 mb-2">Projects</h2>
           {projectsData.map((project, idx) => (
             <div key={idx} className="border rounded-lg p-4 mb-4">
-              <p className="text-sm sm:text-base text-gray-600">{project.category}</p>
-              <h3 className="text-lg sm:text-xl font-bold mb-3">{project.title}</h3>
-              <p>{project.description}</p>
-              <p>
+              <p className="text-xs sm:text-base text-gray-600">{project.category}</p>
+              <h3 className="text-base sm:text-xl font-bold mb-3">{project.title}</h3>
+              <p className="text-xs sm:text-base">{project.description}</p>
+              <p className="text-xs sm:text-base">
                 Project Link:{" "}
                 <a
                   href={project.link}
-                  className="text-blue-500"
+                  className="text-xs sm:text-base text-blue-500"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -94,35 +94,35 @@ const CVPage = () => {
         </div>
         {/* Technical Skills Section */}
         <div className="border rounded-lg p-4">
-          <h2 className="text-xl sm:text-2xl font-bold pb-2 mb-2">Technical Skills</h2>
-          <p>
+          <h2 className="text-lg sm:text-2xl font-bold pb-2 mb-2">Technical Skills</h2>
+          <p className="text-xs sm:text-base">
             <strong>Programming Languages:</strong> {skillsData.programming.join(", ")}
           </p>
-          <p>
+          <p className="text-xs sm:text-base">
             <strong>ML/AI:</strong> {skillsData.mlAi.join(", ")}
           </p>
-          <p>
+          <p className="text-xs sm:text-base">
             <strong>Web Technologies:</strong> {skillsData.webTechnologies.join(", ")}
           </p>
-          <p>
+          <p className="text-xs sm:text-base">
             <strong>DBMS:</strong> {skillsData.dbms.join(", ")}
           </p>
         </div>
         {/* Certifications Section */}
         <div className="border rounded-lg p-4 pb-0">
-          <h2 className="text-xl sm:text-2xl font-bold pb-2 mb-2">Certifications</h2>
+          <h2 className="text-lg sm:text-2xl font-bold pb-2 mb-2">Certifications</h2>
           {certificationsData.map((cert, idx) => (
             <div key={idx} className="border rounded-lg p-4 mb-4">
-              <h3 className="text-lg sm:text-xl font-bold mb-3">{cert.title}</h3>
-              <p className="text-sm sm:text-base text-gray-600">{cert.date}</p>
-              <p>
+              <h3 className="text-base sm:text-xl font-bold mb-3">{cert.title}</h3>
+              <p className="text-xs sm:text-base text-gray-600">{cert.date}</p>
+              <p className="text-xs sm:text-base">
                 <strong>Credential ID:</strong> {cert.credentialId || "N/A"}
               </p>
-              <p>
+              <p className="text-xs sm:text-base">
                 Credential URL:{" "}
                 <a
                   href={cert.url}
-                  className="text-blue-500"
+                  className="text-xs sm:text-base text-blue-500"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -134,20 +134,20 @@ const CVPage = () => {
         </div>
         {/* Volunteering Section */}
         <div className="border rounded-lg p-4 pb-0">
-          <h2 className="text-xl sm:text-2xl font-bold mb-4">Volunteering</h2>
+          <h2 className="text-lg sm:text-2xl font-bold mb-4">Volunteering</h2>
           {volunteeringData.map((volunteer, idx) => (
             <div key={idx} className="border rounded-lg p-4 mb-4">
-              <p className="text-sm sm:text-base text-gray-600">{volunteer.role}</p>
-              <h3 className="text-lg sm:text-xl font-bold mb-3">{volunteer.title}</h3>
-              <p className="text-sm sm:text-base text-gray-600">{volunteer.date}</p>
-              <p>{volunteer.description}</p>
-              <p>
+              <p className="text-xs sm:text-base text-gray-600">{volunteer.role}</p>
+              <h3 className="text-base sm:text-xl font-bold mb-3">{volunteer.title}</h3>
+              <p className="text-xs sm:text-base text-gray-600">{volunteer.date}</p>
+              <p className="text-xs sm:text-base">{volunteer.description}</p>
+              <p className="text-xs sm:text-base">
                 {volunteer.linkText}:{" "}
                 <a
                   href={volunteer.linkUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500"
+                  className="text-xs sm:text-base text-blue-500"
                 >
                   Click here
                 </a>
@@ -157,11 +157,11 @@ const CVPage = () => {
         </div>
         {/* Achievements Section */}
         <div className="border rounded-lg p-4 pb-0">
-          <h2 className="text-xl sm:text-2xl font-bold pb-2 mb-2">Achievements</h2>
+          <h2 className="text-lg sm:text-2xl font-bold pb-2 mb-2">Achievements</h2>
           {achievementsData.map((achievement, idx) => (
             <div key={idx} className="border rounded-lg p-4 mb-4">
-              <p className="text-sm sm:text-base text-gray-600">{achievement.detail}</p>
-              <h3 className="text-lg sm:text-xl font-bold">{achievement.title}</h3>
+              <p className="text-xs sm:text-base text-gray-600">{achievement.detail}</p>
+              <h3 className="text-base sm:text-xl font-bold">{achievement.title}</h3>
               {/* <p>{achievement.detail}</p> */}
             </div>
           ))}
