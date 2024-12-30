@@ -6,6 +6,12 @@
     "category": "Web Development"
   },
   {
+    "title": "YouTube Channel",
+    "description": "Created and manage a YouTube channel to share technical content on topics such as AWS, LeetCode problem solutions, and Python programming. Developed engaging video tutorials to educate viewers and demonstrate problem-solving techniques.",
+    "link": "https://www.youtube.com/@debjotyms",
+    "category": "Technical Content Creation"
+  },
+  {
     "title": "xopslab.org",
     "description": "XOps Lab is a global community for AI, ML, and Cloud enthusiasts to connect, learn, and grow together.",
     "link": "https://github.com/debjotyms/xopslab.org",
