@@ -11,11 +11,15 @@ import skillsData from "@/data/skills.json";
 import certificationsData from "@/data/certifications.json";
 import volunteeringData from "@/data/volunteering.json";
 import achievementsData from "@/data/achievements.json";
+import {Badge} from "@/components/ui/badge";
 
 const CVPage = () => {
   return (
     <div className="min-h-screen mx-auto max-w-screen-lg px-4 sm:px-6 md:px-16 py-4 space-y-8">
       {/* Download Button */}
+      <div className="flex justify-center">
+        <Badge variant="outline" className="">Happy New Year</Badge>
+      </div>
       <div className="flex justify-center">
         <a href="/cv.pdf" download>
           <Button className="flex items-center px-4 py-2 text-sm md:text-base">
@@ -83,9 +87,8 @@ const CVPage = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-gray-900"
-                >
-                  {project.link.includes('youtube') ? (
+                  className="text-gray-600 hover:text-gray-900">
+                  {project.link.includes("youtube") ? (
                     <FaYoutube className="w-6 h-6 text-red-600 hover:text-red-700" />
                   ) : (
                     <FaGithub className="w-6 h-6" />
@@ -128,8 +131,7 @@ const CVPage = () => {
                   href={cert.url}
                   className="text-sm sm:text-base text-blue-500"
                   target="_blank"
-                  rel="noopener noreferrer"
-                >
+                  rel="noopener noreferrer">
                   Click here
                 </a>
               </p>
@@ -151,8 +153,7 @@ const CVPage = () => {
                   href={volunteer.linkUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm sm:text-base text-blue-500"
-                >
+                  className="text-sm sm:text-base text-blue-500">
                   Click here
                 </a>
               </p>
