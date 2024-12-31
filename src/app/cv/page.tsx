@@ -2,7 +2,7 @@
 
 import {Button} from "@/components/ui/button";
 import React from "react";
-import {FaDownload, FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
+import {FaDownload, FaGithub, FaLinkedin, FaEnvelope, FaYoutube} from "react-icons/fa";
 import profileData from "@/data/profile.json";
 import educationData from "@/data/education.json";
 import experienceData from "@/data/experience.json";
@@ -74,20 +74,25 @@ const CVPage = () => {
           <h2 className="text-lg sm:text-2xl font-bold pb-2 mb-2">Projects</h2>
           {projectsData.map((project, idx) => (
             <div key={idx} className="border rounded-lg p-4 mb-4">
-              <p className="text-sm sm:text-base text-gray-600">{project.category}</p>
-              <h3 className="text-base sm:text-xl font-bold mb-3">{project.title}</h3>
-              <p className="text-sm sm:text-base">{project.description}</p>
-              <p className="text-sm sm:text-base">
-                Project Link:{" "}
+              <div className="flex justify-between items-center mb-3">
+                <div>
+                  <p className="text-sm sm:text-base text-gray-600">{project.category}</p>
+                  <h3 className="text-base sm:text-xl font-bold">{project.title}</h3>
+                </div>
                 <a
                   href={project.link}
-                  className="text-sm sm:text-base text-blue-500"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-gray-900"
                 >
-                  Click here
+                  {project.link.includes('youtube') ? (
+                    <FaYoutube className="w-6 h-6 text-red-600 hover:text-red-700" />
+                  ) : (
+                    <FaGithub className="w-6 h-6" />
+                  )}
                 </a>
-              </p>
+              </div>
+              <p className="text-sm sm:text-base">{project.description}</p>
             </div>
           ))}
         </div>
