@@ -1,6 +1,6 @@
 {
-  "programming": ["C++", "Python"],
+  "programming": ["C++", "Python", "JavaScript"],
   "mlAi": ["NumPy", "Pandas", "Seaborn", "Scikit-learn", "TensorFlow", "PyTorch"],
-  "webTechnologies": ["HTML", "CSS", "Bootstrap", "Django"],
-  "dbms": ["MySQL", "SQLite"]
+  "webTechnologies": ["HTML", "CSS", "Next.js", "React.js", "Node.js", "Express.js"],
+  "dbms": ["MySQL", "PostgreSQL", "MongoDB"]
 }
