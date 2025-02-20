@@ -1,7 +1,7 @@
 import {Button} from "@/components/ui/button";
 import {Badge} from "./ui/badge";
 import Link from "next/link";
-import {FaGithub} from "react-icons/fa";
+import {FaGithub, FaYoutube} from "react-icons/fa";
 import Image from "next/image";
 
 export default function Hero() {
@@ -30,11 +30,17 @@ export default function Hero() {
         Runner
       </p>
       <div className="flex gap-4 py-4 md:pb-10 items-center">
-        <Button variant={"default"}>
+        <Button variant="default" style={{backgroundColor: "#141416", borderColor: "#141416", color: "#fff"}}>
           <Link href="https://blog.debjotyms.com/">Personal Blog</Link>
         </Button>
+        <Link href="https://www.youtube.com/@debjotyms" target="_blank" rel="noopener noreferrer">
+          <Button variant="default" style={{backgroundColor: "#FF0000", borderColor: "#FF0000", color: "#fff"}}>
+            <FaYoutube className="mr-2 h-4 w-4" />
+            YouTube
+          </Button>
+        </Link>
         <Link href="https://github.com/debjotyms" target="_blank" rel="noopener noreferrer">
-          <Button variant="outline">
+          <Button variant="default" style={{backgroundColor: "#24292e", borderColor: "#24292e", color: "#fff"}}>
             <FaGithub className="mr-2 h-4 w-4" />
             GitHub
           </Button>
