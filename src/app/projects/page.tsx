@@ -90,7 +90,9 @@ const ProjectsPage = () => {
             <Badge
               key={tag}
               variant={selectedTags.includes(tag) ? "default" : "outline"}
-              className="cursor-pointer dark:hover:bg-gray-700 transition-colors text-sm py-1 px-3 dark:text-white dark:border-gray-600"
+              className={`cursor-pointer transition-colors text-sm py-1 px-3 dark:border-gray-600 ${
+          selectedTags.includes(tag) ? "dark:bg-gray-600 dark:text-white" : "dark:hover:bg-gray-700 dark:text-white"
+              }`}
               onClick={() => toggleTag(tag)}>
               {tag}
             </Badge>
