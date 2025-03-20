@@ -52,6 +52,12 @@ export default function Header() {
               <Link href="/">Home</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
+          
+          <NavigationMenuItem>
+            <NavigationMenuLink asChild className={cn(navigationMenuTriggerStyle())}>
+              <Link href="/projects">Projects</Link>
+            </NavigationMenuLink>
+          </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={cn(navigationMenuTriggerStyle())}>
               <Link href="/cv">CV</Link>
@@ -96,6 +102,11 @@ export default function Header() {
             <li>
               <SheetTrigger asChild>
                 <Link href="/cv">CV</Link>
+              </SheetTrigger>
+            </li>
+            <li>
+              <SheetTrigger asChild>
+                <Link href="/projects">Projects</Link>
               </SheetTrigger>
             </li>
             <li>
