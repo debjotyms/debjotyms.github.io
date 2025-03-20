@@ -1,5 +1,17 @@
 [
   {
+    "title": "Langchain Semantic Document Finder",
+    "description": "This is a simple semantic search application built with LangChain. It helps users find the most relevant document from a set of texts based on the context of an input query, not just keywords.",
+    "link": "https://github.com/debjotyms/langchain-semantic-finder",
+    "category": "GenAI"
+  },
+  {
+    "title": "TradeTrack Wholesale Management",
+    "description": "The TradeTrack project is a simple system to help wholesale business owners manage their entire business. It allows them to track stock, suppliers, clients, finances, and bank transactions—all in one place.",
+    "link": "https://github.com/debjotyms/langchain-semantic-finder",
+    "category": "Web Development"
+  },
+  {
     "title": "debjotyms.com",
     "description": "Developed a personal portfolio website using Next.js to showcase projects and skills. Implemented responsive design and optimized performance for a seamless user experience.",
     "link": "https://github.com/debjotyms/debjotyms.github.io",
