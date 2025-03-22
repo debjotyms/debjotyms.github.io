@@ -39,14 +39,6 @@ export default function Footer() {
             </Button>
           </Link>
         </li>
-        <li>
-          <Link href="mailto:debjotyms@gmail.com">
-            <Button variant="outline">
-              <FaMailBulk className="h-4 w-4 mr-2" />
-              debjotyms@gmail.com
-            </Button>
-          </Link>
-        </li>
       </ul>
     </footer>
   );
