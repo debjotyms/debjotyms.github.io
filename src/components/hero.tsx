@@ -23,7 +23,7 @@ export default function Hero() {
       </Badge>
 
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center text-balance leading-tight lg:leading-[1.1]">
-        Aspiring AI Engineer
+        Aspiring MLOps Engineer
       </h1>
       <p className="text-lg font-light max-w-xl text-center text-foreground">
         Beta MLSA @ Microsoft Learn | 2x Cloud Certified | 1x GitHub Certified | 1x Kaggle Expert | YouTube Creator |
